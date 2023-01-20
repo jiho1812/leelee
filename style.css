@@ -1,0 +1,78 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Nunito:wght@400;700&display=swap');
+
+
+body{
+    height: 100vh;
+    margin: 20px;
+    font-family: 'Dongle', sans-serif;
+    background-color: #F7F1DC;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.title{
+    border-bottom: 3px solid #FFA69E;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.title h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.photo-zone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo-zone__img{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    border: 5px solid #FFA69E;
+}
+
+.text-zone{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-zone ul li{
+    font-size: 50px;
+}
+
+.text-zone ul li span{
+    color: red;
+}
+
+.courage{
+    margin-top: 10px;
+}
+
+.courage p{
+    font-size: 40px;
+}
+
+.facebook{
+    font-size: 30px;
+    margin: 20px;
+    color: blue;
+}
+
+.instagram{
+    font-size: 30px;
+    color:#C429C4;
+}
